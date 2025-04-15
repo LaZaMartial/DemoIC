@@ -68,9 +68,9 @@
       <id>nexus-snapshots</id>
       <url>http://localhost:8081/repository/snapshots/</url>
     </snapshotRepository>
-    <repository>
+    <repository>  
       <id>nexus-releases</id>
-      <url>http://localhost:8081/repository/nexus-releases/</url>
+      <url>http://localhost:8081/repository/releases/</url>
     </repository>
   </distributionManagement>
 </project>
