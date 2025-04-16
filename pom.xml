@@ -65,12 +65,12 @@
   </build>
   <distributionManagement>
     <snapshotRepository>
-      <id>nexus-snapshots</id>
-      <url>http://localhost:8081/repository/maven-snapshots/</url>
+      <id>Test_deploy</id>
+      <url>http://localhost:8081/repository/Test_deploy/</url>
     </snapshotRepository>
     <repository>  
-      <id>nexus-releases</id>
-      <url>http://localhost:8081/repository/maven-releases/</url>
+      <id>Test_deploy</id>
+      <url>http://localhost:8081/repository/Test_deploy/</url>
     </repository>
   </distributionManagement>
 </project>
